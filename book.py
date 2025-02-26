@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 from pymongo import MongoClient
 
-MONGO_URI = "mongodb+srv://setthapongp:rXyiwt9XfsGDkmcu@cluster0.wkl8d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = ""
 client = MongoClient(MONGO_URI)
 
 db = client["bookstore"]
